@@ -5,9 +5,36 @@ html, body, #__next {
   height: 100%;
   margin: 0;
 }
+.react-flow__controls {
+  background: #0f172a !important;
+  border: 1px solid #334155 !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  box-shadow: none !important;
+}
 
-.react-flow__node {
-  font-size: 12px;
+.react-flow__controls-button {
+  width: 32px !important;
+  height: 32px !important;
+  padding: 6px !important;
+  background: #0f172a !important;
+  color: #e2e8f0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #334155 !important;
+}
+
+.react-flow__controls-button:last-child {
+  border-bottom: 0 !important;
+}
+
+.react-flow__controls-button:hover {
+  background: #1e293b !important;
+  color: #ffffff !important;
+}
+
+.react-flow__controls-button svg {
+  fill: currentColor !important;
+  stroke: currentColor !important;
 }
 
 @theme inline {
